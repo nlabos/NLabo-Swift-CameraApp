@@ -13,6 +13,7 @@
 		0470ACEB28E2C94800E71CC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0470ACE928E2C94800E71CC1 /* Main.storyboard */; };
 		0470ACED28E2C94900E71CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0470ACEC28E2C94900E71CC1 /* Assets.xcassets */; };
 		0470ACF028E2C94900E71CC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0470ACEE28E2C94900E71CC1 /* LaunchScreen.storyboard */; };
+		0470ACFA28E2CEF200E71CC1 /* EffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0470ACF928E2CEF200E71CC1 /* EffectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0470ACEC28E2C94900E71CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0470ACEF28E2C94900E71CC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0470ACF128E2C94900E71CC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0470ACF928E2CEF200E71CC1 /* EffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EffectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				0470ACE528E2C94800E71CC1 /* SceneDelegate.swift */,
 				0470ACE728E2C94800E71CC1 /* ViewController.swift */,
 				0470ACE928E2C94800E71CC1 /* Main.storyboard */,
+				0470ACF928E2CEF200E71CC1 /* EffectViewController.swift */,
 				0470ACEC28E2C94900E71CC1 /* Assets.xcassets */,
 				0470ACEE28E2C94900E71CC1 /* LaunchScreen.storyboard */,
 				0470ACF128E2C94900E71CC1 /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0470ACE828E2C94800E71CC1 /* ViewController.swift in Sources */,
+				0470ACFA28E2CEF200E71CC1 /* EffectViewController.swift in Sources */,
 				0470ACE428E2C94800E71CC1 /* AppDelegate.swift in Sources */,
 				0470ACE628E2C94800E71CC1 /* SceneDelegate.swift in Sources */,
 			);
@@ -291,6 +295,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "NLabo-Swift-CameraApp/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "カメラにアクセスします";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "カメラロールにアクセスします";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +325,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "NLabo-Swift-CameraApp/Info.plist";
 				INFOPLIST_KEY_NSCameraUsageDescription = "カメラにアクセスします";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "カメラロールにアクセスします";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
